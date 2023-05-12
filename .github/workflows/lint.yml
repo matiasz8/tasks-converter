@@ -27,9 +27,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Prebuild (clean dist folder)
-        run: pnpm run prebuild
-
       - name: Run lint
         run: pnpm run lint
 
